@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Welcome to AR Music</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Sound cloud music">
+	<meta name="keywords" content="music, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+ 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+
+	<!-- Main Stylesheets -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/Animate.css">
+   <!-- <script src="./js/jquery-3.2.1.min.js"></script>-->
+    
+    <script src="jquery-3.3.1.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://connect.soundcloud.com/sdk.js"></script>
+    <script src="jquary_song/ARmain.js"></script>
+
+
+	
+
+</head>
+<body>
+	
+
+	<!-- Header section -->
+	<header class="header-section clearfix">
+		<a href="index
+		.html" class="site-logo">
+			<img src="img/best_1.png" alt="">
+		</a>
+		
+		<ul class="main-menu">
+			<li><a href="index
+				.html">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Pages</a>
+				<ul class="sub-menu">
+                    <li><a href="category.html">Category</a></li>
+					
+					<li><a href="artist.html">Artist</a></li>
+					<li><a href="">Playlist</a></li>
+					<li><a href="#">Romantic Songs</a></li>
+				</ul>
+			</li>
+			<li><a href="artist.html">Artist</a></li>
+			<li><a href="#">other</a></li>
+		
+		</ul>
+	</header>
+	<!-- Header section end -->
+
+<!-- A R section -->
+<section class="playlist-section spad">
+    <div class="container-fluid">
+        <div class="section-title">
+            <h2>A.R. Rahman Songs</h2>
+        </div>
+      
+                                              
+        <div class="clearfix"></div>
+        <div class="row playlist-area">
+            <div id="portfolio-grid" class="row no-gutter size" >
+            <div class="mix col-lg-3 col-md-4 col-sm-6 genres">
+                <div class="playlist-item">
+                   <div class="image"> <img src="img/Ar song_img/1 hosanna.jpg" alt=""></div>
+                       <h5>Hosanna</h5>
+                    <div class="startstop"><button id="start1" class="btn btn-success">Start</button>
+                        <button id="stop1" class="btn btn-danger">Stop</button>
+                        <h4>Hosanna</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mix col-lg-3 col-md-4 col-sm-6 artists">
+                <div class="playlist-item">
+                    <div class="image"><img src="img/Ar song_img/2.munpe va.jpg" alt=""></div>
+                    <h5>Munbe va</h5>
+                    <div class="startstop"><button id="start2" class="btn btn-success">Start</button>
+                        <button id="stop2" class="btn btn-danger">Stop</button></div>
+                <h4>Munbe va</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 movies">
+                <div class="playlist-item">
+                    <div class="image">  <img src="img/Ar song_img/3nensukulla.jpg" alt=""></div>
+                    <h5> Nenjukkule</h5>
+                    <div class="startstop"><button id="start3" class="btn btn-success">Start</button>
+                        <button id="stop3" class="btn btn-danger">Stop</button></div>
+                        <h4> Nenjukkule</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 labels">
+                <div class="playlist-item">
+                    <div class="image"><img src="img/Ar song_img/4 marcho.jpg" alt=""></div>
+                    <h5> Maacho</h5>
+                    <div class="startstop"><button id="start4" class="btn btn-success">Start</button>
+                        <button id="stop4" class="btn btn-danger">Stop</button></div>
+                        <h4> Maacho</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 genres">
+                <div class="playlist-item">
+                    <div class="image"> <img src="img/Ar song_img/5 usire.jpg" alt=""></div>
+                    <h5> Usure Pogudhey</h5>
+                    <div class="startstop"><button id="start5" class="btn btn-success">Start</button>
+                        <button id="stop5" class="btn btn-danger">Stop</button></div>
+               <h4> Usure Pogudhey</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 artists">
+                <div class="playlist-item">
+                    <div class="image"> <img src="img/Ar song_img/6 innumkonsa.jpg" alt=""></div>
+                    <h5> Innum Konjam Naeram</h5>
+                    <div class="startstop"><button id="start6" class="btn btn-success">Start</button>
+                        <button id="stop6" class="btn btn-danger">Stop</button></div>
+              <h4> Innum Konjam Naeram</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 movies">
+                <div class="playlist-item">
+                    <div class="image">  <img src="img/Ar song_img/7 . Mannipaaya.jpg" alt=""></div>
+                    <h5> Mannipaaya</h5>
+                    <div class="startstop"><button id="start7" class="btn btn-success">Start</button>
+                        <button id="stop7" class="btn btn-danger">Stop</button></div>
+               <h4> Mannipaaya</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 labels">
+                <div class="playlist-item">
+                    <div class="image">   <img src="img/Ar song_img/8Mulumathy.jpg" alt=""></div>
+                    <h5>Mulumathy</h5>
+                    <div class="startstop"><button id="start8" class="btn btn-success">Start</button>
+                        <button id="stop8" class="btn btn-danger">Stop</button></div>
+                        <h4>Mulumathy</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 genres">
+                <div class="playlist-item">
+                    <div class="image">  <img src="img/Ar song_img/9.new.jpg" alt=""></div>
+                    <h5> Azhagiye</h5>
+                    <div class="startstop"><button id="start9" class="btn btn-success">Start</button>
+                        <button id="stop9" class="btn btn-danger">Stop</button></div>
+                <h4> Azhagiye</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 artists">
+                <div class="playlist-item">
+                    <div class="image"> <img src="img/Ar song_img/10 . Moongil Thottam.jpg" alt=""></div>
+                    <h5> Moongil Thottam</h5>
+                    <div class="startstop"><button id="start10" class="btn btn-success">Start</button>
+                        <button id="stop10" class="btn btn-danger">Stop</button></div>
+                <h4> Moongil Thottam</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 movies">
+                <div class="playlist-item">
+                    <div class="image"> <img src="img/Ar song_img/11 . Nenjam Ellam.jpg" alt=""></div>
+                    <h5>Nenjam Ellam</h5>
+                    <div class="startstop"><button id="start11" class="btn btn-success">Start</button>
+                        <button id="stop11" class="btn btn-danger">Stop</button></div>
+                <h4>Nenjam Ellam</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 labels">
+                <div class="playlist-item">
+                    <div class="image"><img src="img/Ar song_img/12. Malargal Ketten.jpeg" alt=""></div>
+                    <h5>Malargal Ketten</h5>
+                    <div class="startstop"><button id="start12" class="btn btn-success">Start</button>
+                        <button id="stop12" class="btn btn-danger">Stop</button></div>
+                <h4>Malargal Ketten</h4>
+                    </div>
+                
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 genres">
+                <div class="playlist-item">
+                    <div class="image"><img src="img/Ar song_img/13 Singapenne - bigil.jpg" alt=""></div>
+                    <h5>Singapenne</h5>
+                    <div class="startstop"><button id="start13" class="btn btn-success">Start</button>
+                        <button id="stop13" class="btn btn-danger">Stop</button></div>
+                <h4>Singapenne</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 artists">
+                <div class="playlist-item">
+                    <div class="image"> <img src="img/Ar song_img/14 . Katre En Vaasal.jpg" alt=""></div>
+                    <h5>Katre En Vaasal</h5>
+                    <div class="startstop"><button id="start14" class="btn btn-success">Start</button>
+                        <button id="stop14" class="btn btn-danger">Stop</button></div>
+                <h4>Katre En Vaasal</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 movies">
+                <div class="playlist-item">
+                    <div class="image">  <img src="img/Ar song_img/15 Kannukkul Kannai.jpg" alt=""></div>
+                    <h5>Kannukkul Kannai</h5>
+                    <div class="startstop"><button id="start15" class="btn btn-success">Start</button>
+                        <button id="stop15" class="btn btn-danger">Stop</button></div>
+               <h4>Kannukkul Kannai</h4>
+                    </div>
+            </div>
+            <div class="mix col-lg-3 col-md-4 col-sm-6 artists">
+                <div class="playlist-item">
+                    <div class="image">  <img src="img/Ar song_img/16 Naan Un Azhaginile.jpg" alt=""></div>
+                    <h5>Naan Un Azhaginile</h5>
+                    <div class="startstop"><button id="start16" class="btn btn-success">Start</button>
+                        <button id="stop16" class="btn btn-danger">Stop</button></div>
+                        <h4>Naan Un Azhaginile</h4>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- Playlist section end -->
+
+
+<!-- Footer section -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-7 order-lg-2">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="footer-widget">
+                            <!--<h2>About us</h2>-->
+                            <ul>
+                                <li><a href="">Albums</a></li>
+                                <li><a href="">Genres</a></li>
+                                <li><a href="">Artistes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-widget">
+                            <!--<h2>Products</h2>-->
+                            <ul>
+                                <li><a href="">New Release</a></li>
+                                <li><a href="">Trending Songs</a></li>
+                                <li><a href="">Trending Albums</a></li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-widget">
+                            
+                            <ul>
+                                <li><a href="">Old Songs</a></li>
+                                <li><a href="">Video songs</a></li>
+                                <li><a href="">lyrics</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-5 order-lg-1">
+                <img src="img/best_1.png" alt="">
+                <div class="copyright">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Music Player website<i class="fa fa-heart-o" aria-hidden="true"></i>
+</div>
+                <div class="social-links">
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-pinterest"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer section end -->
+
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
